@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sign In With VKSSS ID"
+            android:textStyle="bold"
+            android:id="@+id/signIn"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:text="Email Id"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:text="Password"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:id="@+id/vksssSignIn"
+            android:layout_gravity="center_horizontal" />
+
+        <!--<ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/signInWithGoogle"
+            android:src="@drawable/signinwithgoogle"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal" />-->
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_googlesign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button_Facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp" />
+
+
+        <!--<com.google.android.gms.common.SignInButton-->
+            <!--android:id="@+id/sign_in_button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "645555643327",
+    "project_id": "firebase-vksss"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645555643327:android:25310b9b64ab33f4",
+        "android_client_info": {
+          "package_name": "com.vksss.org"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645555643327-m7iul4f4rmsovu78nhvie4lgppgsfr67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vksss.org",
+            "certificate_hash": "723C62F4EC58465A20BA3EA5E932C484CE992530"
+          }
+        },
+        {
+          "client_id": "645555643327-b0cujeaikn7v9vdadqfnstefeirrm834.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrnYrkGwUNJ6y-mnvmaUAqVRgQtCn_cgM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
